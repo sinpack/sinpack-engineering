@@ -286,12 +286,11 @@ p {
 
 /* Carousel section */
 #carousel {
-  background-color: #fefdfc;
-  background-image: linear-gradient(315deg, #fefdfc 0%, #473146 74%);
-  background-size: cover;
-  color: grey;
+ color: grey;
   font-weight: bolder;
   padding: 20% 10% 20% 10%;
+  background: url("../images/wall2.jpg");
+  background-size: cover;
 }
 
 .carouselfont {
