@@ -137,8 +137,8 @@ p {
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  text-shadow: 0 0 10px, 0 0 5px white;
-  font-size: 1.5vmin !important;
+/*   text-shadow: 0 0 10px, 0 0 5px white; */
+  font-size: 2vmin !important;
   color: white !important;
 }
 
