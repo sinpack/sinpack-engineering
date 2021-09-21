@@ -279,3 +279,18 @@ function myFunction() {
     }
   }
 })();
+
+$(function(){
+    $('#exampleModal2.slide').carousel({
+        interval: 5000,
+        pause: "hover"
+    });
+
+    $('input').focus(function(){
+       $("#exampleModal2").carousel('pause');
+    }).blur(function() {
+       $("#exampleModal2").carousel('cycle');
+    });
+});
+
+
